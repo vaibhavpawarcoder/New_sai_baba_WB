@@ -1,0 +1,148 @@
+body{
+    background-color: #f2f2f2;
+}
+.head{
+    font-size: 30px !important;
+    transition: 0.5s all;
+}
+.head:hover{
+    color: orangered !important;
+}
+.active{
+    color: orangered !important;
+    /* border-bottom: 5px solid orangered; */
+}
+.navbar-nav .nav-item a{
+    transition: 0.5s all;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-item a:hover{
+    color: orangered !important;
+    border-bottom: 5px solid orangered;
+}
+
+#card{
+    transition: 0.5s all;
+    cursor: pointer;
+    box-shadow: 10px 8px 8px gray;
+    height: 480px;
+}
+#card:hover{
+    transform: scale(1.1);
+    border-radius: 30px;
+}
+h1{
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    text-shadow: 5px 3px 3px gray;
+}
+
+.curved-background__curved {
+    /* Background color */
+    background-image: url('../IMG/banner-img.jpg');
+    background-size: cover;
+    color: #f2f2f2;
+
+    /* You can use gradient background color such as */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+
+    /* Size */
+    height: 50%;
+    width: 100%;
+}
+
+.curved-bx{
+    background-color: thistle;
+    background-size: cover;
+
+    /* You can use gradient background color such as */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%); */
+
+    /* Curved corners */
+    border-bottom-left-radius: 50% 40%;
+    border-bottom-right-radius: 50% 40%;
+
+    /* Size */
+    /* height: 50%;
+    width: 100%; */
+}
+
+#faq{
+    background-image: url(../IMG/banner-img.jpg);
+    background-size: cover;
+    border-radius: 40px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .para{
+        color: black;
+        font-size: 20px;
+    }
+    .para-head{
+        color: #f2f2f2;
+    }
+    .head{
+        font-size: 20px !important;
+    }
+    .p-5{
+        font-size: 14px;
+    }
+    
+}
+@media only screen and (max-width: 820px) {
+    .para{
+        color: black;
+        font-size: 20px;
+    }
+    .para-head{
+        color: #f2f2f2;
+    }
+    .head{
+        font-size: 20px !important;
+    }
+    .p-5{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 912px) {
+    .para{
+        color: black;
+        font-size: 20px;
+    }
+    .para-head{
+        color: #f2f2f2;
+    }
+    .head{
+        font-size: 20px !important;
+    }
+    .p-5{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .para{
+        color: black;
+        font-size: 20px;
+    }
+    .p-5{
+        font-size: 14px;
+    }
+    .para-head{
+        color: #f2f2f2;
+    }
+    .head{
+        font-size: 20px;
+    }
+}
